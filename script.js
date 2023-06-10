@@ -9,7 +9,7 @@ const generator = () =>{
     const randomAdjective = adjective[Math.floor(Math.random() * adjective.length)]; // Selecting a random adjective
     const randomdays = days[Math.floor(Math.random() * days.length)]; // Selecting a random day
     
-    console.log(`${randomAction} is ${randomOcurrance} ${randomAdjective} on ${randomdays}`); // Printing combined message
+    console.log(`${randomAction} is ${randomOcurrance} ${randomAdjective} on ${randomdays} <(o.o )>`); // Printing combined message
 };
 
 generator();
